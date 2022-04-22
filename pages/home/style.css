@@ -106,13 +106,7 @@ input{
     color: aliceblue;
     align-items: center;
 }
-
-input::after{
-    text-shadow: #black;
-}
-
 /*card*/
-
 .content{
     margin-top: 42px;
     display: flex;
@@ -268,5 +262,9 @@ input::after{
     color: #0A143A;
     font-size: 12px;
     margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.a{
     text-decoration: none;
 }
