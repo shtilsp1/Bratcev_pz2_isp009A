@@ -72,7 +72,7 @@
 
 /*find-stroke*/
 .find-stroke{
-    margin-top: 30px;
+    margin-top: 24px;
 }
 
 form{
@@ -98,4 +98,65 @@ input{
     border-radius: 5px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+}
+
+.content{
+    margin-top: 42px;
+}
+.rec-line{
+    margin-top: 25px;
+}
+
+.card{
+    width: 264px;
+    margin-right: 30px;
+}
+
+
+.rec-name_like{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #256EEB;
+    font-weight: bold;
+}
+
+.like{
+    width: 15px;
+    height: 13.35px;
+}
+
+.like-active{
+    width: 15px;
+    height: 13.35px;
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+.price{
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #0A143A;
+    font-weight: bold;
+}
+
+.sub-title{
+    color: #C4C4C4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.sub-title-group{
+    margin-top: 10px;
+}
+
+.rec-line{
+    display: flex;
+}
+
+.rec-title{
+    font-family: 'Roboto', sans-serif;
 }
