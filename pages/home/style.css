@@ -61,6 +61,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.autorization-link:hover{
+    text-decoration: underline;
+    color: #256EEB;
+}
+
 .header_nav-link:hover{
     text-decoration: underline;
     color: #256EEB;
@@ -98,6 +103,12 @@ input{
     border-radius: 5px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+    color: aliceblue;
+    align-items: center;
+}
+
+input::after{
+    text-shadow: #black;
 }
 
 /*card*/
@@ -145,6 +156,7 @@ input{
     color: #C4C4C4;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    width: 250px;
 }
 
 .sub-title-group{
@@ -159,6 +171,20 @@ input{
     font-family: 'Roboto', sans-serif;
 }
 
+.card:hover{
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    cursor: help;
+}
+
+.card-link:hover{
+    cursor: help;
+}
+
+.sub-title:hover{
+    color: #256EEB;
+}
 
 /*services*/
 .services-title{
@@ -195,4 +221,52 @@ input{
     font-family: 'Roboto', sans-serif;
     color: #0A143A;
     width: 217px;
+}
+
+.footer{
+    margin-top: 37px;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 18px;
+}
+
+.footer-political{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.ooo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #C4C4C4;
+}
+
+.footer-text1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #C4C4C4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.footer-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #C4C4C4;
+}
+
+.footer-info{
+    margin-top: 16px;
+}
+
+.footer-info-link{
+    font-family: 'Roboto', sans-serif;
+    color: #0A143A;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-decoration: none;
 }
