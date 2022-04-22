@@ -100,8 +100,11 @@ input{
     border-bottom-left-radius: 0px;
 }
 
+/*card*/
+
 .content{
     margin-top: 42px;
+    display: flex;
 }
 .rec-line{
     margin-top: 25px;
@@ -123,11 +126,6 @@ input{
 }
 
 .like{
-    width: 15px;
-    height: 13.35px;
-}
-
-.like-active{
     width: 15px;
     height: 13.35px;
 }
@@ -159,4 +157,42 @@ input{
 
 .rec-title{
     font-family: 'Roboto', sans-serif;
+}
+
+
+/*services*/
+.services-title{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #0A143A;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+}
+
+.service-block_group{
+    margin-top: 32px;
+}
+
+.service-block-1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sevice-name{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #0A143A;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.service-text{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #0A143A;
+    width: 217px;
 }
