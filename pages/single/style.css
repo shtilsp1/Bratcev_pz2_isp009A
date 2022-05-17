@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    max-width: 1146px;
+    margin: auto;
+}
+
+/*header*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.header_nav{
+    display: inline;
+    margin-right: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.abito_logo{
+    margin-right: 20px;
+}
+
+
+.header_nav-link{
+    text-decoration: none;
+    color: #0A143A;
+}
+.header_nav-link-active{
+    color: #256EEB;
+    text-decoration: none;
+}
+
+.autorization-link{
+    text-decoration: none;
+    color: #0A143A;
+    margin-right: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sell{
+    background-color: #256EEB;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.autorization-link:hover{
+    text-decoration: underline;
+    color: #256EEB;
+}
+
+.header_nav-link:hover{
+    text-decoration: underline;
+    color: #256EEB;
+}
+
+.header_nav-link-active:hover{
+    text-decoration: underline;
+}
+
+/*find-stroke*/
+.find-stroke{
+    margin-top: 24px;
+    margin-bottom: 42px;
+}
+
+form{
+    width: 1146px;
+    margin: 0 auto;
+}
+
+input{
+    width: 1036px;
+    height: 50px;
+    border: 3px solid #256EEB;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.submit{
+    width: 112px;
+    margin-left: -6px;
+    height: 50px;
+    background-color: #256EEB;
+    border-bottom: 5px solid #256EEB;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: aliceblue;
+    align-items: center;
+}
+
+/*content*/
+.conetnt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    width: 754px;
+    height: 669px;
+    border: 2px solid red;
+}
+
