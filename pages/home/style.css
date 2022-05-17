@@ -290,8 +290,55 @@ input{
         width: 1000px;
     }
     .main-container{
-        align-items: center;
+        max-width: 850px;
+        margin: auto;
+    }
+}
 
+@media screen and (max-width:320px) {
+    .main-container {
+        max-width: 270px;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .search__text{
+        display: none;
+    }
+    .links {
+        display: none;
+    }
+
+    .authorization{
+        display: none;
+    }
+
+    .find-stroke {
+        display: block;
+        margin-top: 12px;
+        width: 270px;
+    }
+
+    .cards__two {
+        display: none;
+    }
+
+    .rec-line {
+        flex-direction: column;
+        margin-left: 480px;
+    }
+
+    .rec-title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #0A143A;
+    }
+    .right-block{
+        width: 100%;
     }
 }
 
