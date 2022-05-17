@@ -268,3 +268,30 @@ input{
 .a{
     text-decoration: none;
 }
+
+
+@media (max-width: 850px) {
+    .content{
+        display: block;
+    }
+    .right-block{
+        margin-left: 560px;
+        margin-top: 30px;
+    }
+    .recommendations{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin-left: 70px;
+    }
+    .footer{
+        width: 1000px;
+    }
+    .main-container{
+        align-items: center;
+
+    }
+}
+
