@@ -117,5 +117,101 @@ input{
     width: 754px;
     height: 669px;
     border: 2px solid red;
+    display: flex;
 }
 
+.item-description-name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.image-line{
+    margin-top: 16px;
+    width: 360px;
+    margin-bottom: 30px;
+}
+
+.item-description-text-p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+    width: 460px;
+    word-break: break-all;
+}
+
+.seller{
+    margin-left: 30px;
+}
+.seller-profile{
+    display: flex;
+}
+
+.seller-rofile-statistic{
+    width: 140px;
+}
+
+.seller-price{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.seller-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.raiting{
+    display: flex;
+}
+
+.raiting-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #0A143A;
+    opacity: 50%;
+    margin-left: 10px;
+}
+
+.face{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.seller-image{
+    margin-left: 73px;
+}
+
+.show-number-btn{
+    width: 264px;
+    height: 54px;
+    border: 2px solid #256EEB;
+    border-radius: 5px;
+    background-color: #256EEB;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+
+.btn-txt{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 64px;
+    margin-top: 15px;
+}
+
+.write-message-btn{
+    width: 264px;
+    height: 54px;
+    border: 2px solid #14B4BE;
+    border-radius: 5px;
+    background-color: #14B4BE;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+.btn-link{
+    text-decoration: none;
+}
